@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+body{
+    background-color: rgb(53 54 58);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+  
+}
+#logo_main_web{
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: whitesmoke;
+}
+.navbar{
+    height:auto;
+    width: 100%;
+    backdrop-filter: blur(5px); 
+    padding: 5px;   
+}
+.navbar a{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    color: rgb(221, 198, 198);
+}
+.navbar a:hover{
+   color: gold;
+    
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        height:auto;
+    }
+    .navbar a{
+        width: 100%;
+        background-color:#913fe2;
+        text-align: center;
+        float: none;
+        display: block;
+        color: whitesmoke;
+    }
+    .searchbar{
+        border-radius: 10px;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #search_button{
+        text-align: left;        
+    }
+} 
+.searchbar{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-color: rgb(253, 0, 0);
+    border-width: 1.5px;
+}
+.searchbar input[type=text] {
+    justify-content: left;
+    align-content: flex-start;
+    background-color: rgb(53 54 58);
+    width: 70%;
+    color: blueviolet;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+  }
+.searchbar ::placeholder{
+      color: rgba(137, 43, 226, 0.767);
+      font-size: 25px;
+      background-color: rgb(53 54 58);
+}
+#search_button{ 
+    float: right;
+    padding: 6px;
+    margin: 3px 10px 0px 4px;
+   background-color: transparent;
+    outline: none;
+}
+#reset_button{
+    float: right;
+    padding: 8px;
+    margin: 0px 5px 0px 1px;
+   background-color: transparent;
+   border-radius: 50%;
+
+}
+.main1{
+    background-color: rgb(62 110 194);
+    height: auto;
+    width: 100%;
+    padding: 50px;
+}
+.icon_logo {
+    display: flex;
+    padding: 10px;
+} 
+.icon_logo button{
+   display: flex;
+   background: transparent;
+   padding: 10px;
+}
+#youtube_logo{
+    color: red;
+    cursor: pointer;
+}
+#tiktok_logo{
+    color: black;
+    cursor: pointer;
+
+}
+.profile_pic img{
+    object-fit: cover;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+}
+.about_page{
+    padding-top:150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(6, 213, 228, 0.479);
+    height: 500px;
+    width: 100%;
+    color: rgb(220, 20, 60);
+}
+.contactinfo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top:150px;
+    background-color: rgba(255, 217, 0, 0.74);
+    height: 500px;
+    width: 100%;
+    color: rgb(150, 6, 6);
+    z-index: 1000;
+}
+
+.contactinfo a{
+    text-transform: uppercase; 
+    color: rgb(240, 4, 4)
+}
+.contactinfo a:hover{
+    color: green
+}
+.crypto_div{
+    z-index: 10;
+}
+.last_page_box{
+    padding: 80px 0px 180px 0px;
+    height: 300px;
+    background-color: #0d941fb9;
+}
+#last_icon1{
+    color: rgb(243, 242, 242); 
+    padding: 25px; 
+    scale: 1.5;
+} 
+#last_icon1 i:hover{
+    color: crimson;
+}
+#last_icon1 i{
+    padding: 25px;
+    color: rgb(243, 242, 242); 
+    scale: 1.5;
+
+} 
+
+.footer1{
+    color:rgb(250, 243, 243);
+    padding: 1%;
+    
+}
+
+  

@@ -1,0 +1,92 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 206, 206);
+    /* background-size: contain; */
+}
+.navbar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:auto;
+    width: 100%;
+    padding: 2px;  
+    background-color: rgb(53 54 58);
+}
+.navbar a{
+    font-size: 28px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#logo_main_web1{
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+}
+.signup_settings{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 100%;
+    width: 100%;  
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+.inputbar2 {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    height: 100%;
+    width: 100%;  
+    border: 1px solid white;
+}
+/* #Detail_req_text{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.inputbar2 input{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: none;
+    width: auto;
+    height: 40px; 
+    outline: none;
+}
+#sign_up_button {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: 20%;
+    color: rgb(250, 250, 250);
+    background-color: rgb(23, 139, 0);
+    border-style: none;
+    font-size: 22px;
+}
+#randomtext{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(167, 151, 121);
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color:rgb(240, 203, 203);
+        background-size: contain;
+        height: 100%;
+    }
+    .navbar{
+        background-color: rgb(53 54 58);
+    }
+    .signup_settings{
+        background-color:transparent;
+    }
+}
+
+
+
